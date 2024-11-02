@@ -11,7 +11,7 @@ public class TablasMultiplicarParteDos {
 		Scanner input = new Scanner(System.in);
 
 		System.out.println(
-				"Introduce dos números y te mostraremos todas las tablas de multiplicar que existen entre ellos (ambos inclusive): ");
+				"Introduce dos números entre 1 y 10, y te mostraremos todas las tablas de multiplicar que existen entre ambos números (ambos inclusive): ");
 		int num1 = input.nextInt();
 		int num2 = input.nextInt();
 
@@ -23,7 +23,7 @@ public class TablasMultiplicarParteDos {
 
 		}
 
-		if (num1 <= num2) {
+		else if (num1 <= num2) {
 
 			while (num1 <= num2) {
 				int i;
@@ -39,4 +39,5 @@ public class TablasMultiplicarParteDos {
 		}
 
 	}
+
 }
