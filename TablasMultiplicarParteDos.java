@@ -11,7 +11,7 @@ public class TablasMultiplicarParteDos {
 		Scanner input = new Scanner(System.in);
 
 		System.out.println(
-				"Escribe dos números y te mostraremos todas las tablas de multiplicar que existen entre ellos (ambos inclusive): ");
+				"Introduce dos números y te mostraremos todas las tablas de multiplicar que existen entre ellos (ambos inclusive): ");
 		int num1 = input.nextInt();
 		int num2 = input.nextInt();
 			
