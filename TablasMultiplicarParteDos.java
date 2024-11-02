@@ -12,32 +12,32 @@ public class TablasMultiplicarParteDos {
 
 		System.out.println(
 				"Indica dos números entre 1 y 10, y te mostraremos todas las tablas de multiplicar que existen entre ambos números (ambos inclusive): ");
-		int numero1 = input.nextInt();
-		int numero2 = input.nextInt();
-			
-		if (numero1 > numero2) {
-			
-			int temp = numero1;
-			numero1 = numero2;
-			numero2 = temp;
-			
+		int num1 = input.nextInt();
+		int num2 = input.nextInt();
+
+		if (num1 > num2) {
+
+			int temp = num1;
+			num1 = num2;
+			num2 = temp;
+
 		}
-		
-		else if (numero1 <= numero2) {
-			
-			while (numero1 <= numero2) {
-			int i;
-			for (i = 0; i < 11; i++) {
 
-				int suma = numero1 * i;
+		else if (num1 <= num2) {
 
-				System.out.println(numero1 + " x " + i + " = " + suma);
+			while (num1 <= num2) {
+				int i;
+				for (i = 0; i < 11; i++) {
+
+					int suma = num1 * i;
+
+					System.out.println(num1 + " x " + i + " = " + suma);
+				}
+				num1++;
 			}
-			numero1++;
+
 		}
 
 	}
-
-}
 
 }
